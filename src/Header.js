@@ -1,12 +1,11 @@
 import React from "react";
+import "./Header.css";
+import Vector from "./Vector.png";
 
 function Header() {
   return (
     <header>
-      <img
-        src="C:\Users\steve\OneDrive\PROGRAMMING\FRONT-END\Coursera\my-app\First-App\Images\Vector.png"
-        alt="Little Lemon Logo"
-      />
+      <img src={Vector} alt="Little Lemon Logo" />
     </header>
   );
 }
